@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Netflix South Africa- Watch TV Shows Online, Watch Movies Online
+      Netflix South Africa - Watch TV Shows Online, Watch Movies Online
     </title>
     <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/161287cb0c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -20,6 +24,7 @@
           <!-- Dropdown -->
           <div class="nav__item">
             <div class="dropdown_container">
+              <i class="fa-solid fa-globe"></i>
               <select
                 name="languages"
                 id="selectLanguages"
@@ -37,6 +42,30 @@
         </div>
       </nav>
     </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero_bg_image_container">
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/vlv3/a795ee10-8c6d-467c-8159-254be2b69013/70ceb1d2-12e9-4f27-b4e7-1ac2328e5345/ZA-en-20220912-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+            srcset="
+              https://assets.nflxext.com/ffe/siteui/vlv3/a795ee10-8c6d-467c-8159-254be2b69013/70ceb1d2-12e9-4f27-b4e7-1ac2328e5345/ZA-en-20220912-popsignuptwoweeks-perspective_alpha_website_small.jpg  1000w,
+              https://assets.nflxext.com/ffe/siteui/vlv3/a795ee10-8c6d-467c-8159-254be2b69013/70ceb1d2-12e9-4f27-b4e7-1ac2328e5345/ZA-en-20220912-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w,
+              https://assets.nflxext.com/ffe/siteui/vlv3/a795ee10-8c6d-467c-8159-254be2b69013/70ceb1d2-12e9-4f27-b4e7-1ac2328e5345/ZA-en-20220912-popsignuptwoweeks-perspective_alpha_website_large.jpg  1800w
+            "
+            alt="Background Image"
+            class="hero_bg_image"
+          />
+        </div>
+        <div class="hero_bg_overlay"></div>
+        <div class="hero_card">
+          <h1 class="hero_title">
+            Unlimited movies, TV shows and movies and more.
+          </h1>
+        </div>
+      </section>
+    </main>
+
     <script src="./index.js"></script>
   </body>
 </html>

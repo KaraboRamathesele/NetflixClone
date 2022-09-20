@@ -24,7 +24,8 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    padding: 3% 5%;
+    z-index: 10;
 }
 
 .navbar_netflix {
@@ -40,6 +41,39 @@ body{
 .netflix_logo {
     width: 100%;
     height: 100%;
+}
+
+.language_drop_down{
+    background: transparent;
+    border: none;
+    color:var(--text-color);
+}
+
+.dropdown_container {
+    border:1px solid var(--text-color);
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.signin_button {
+    border: var(--secondary);
+    background-color: var(--secondary);
+    color: var(--text-color);
+    padding: 0.25rem  0.5rem;
+    border-radius: 4px;
+    height:35px;
+    width:100px;
+
+}
+
+.hero_bg_image_container {
+    width: 100%;
+    height: 100%;
+}
+
+.hero_bg_image {
+    
 }
 
 .nav__item {

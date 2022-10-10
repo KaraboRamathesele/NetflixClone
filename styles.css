@@ -28,12 +28,12 @@ body{
     z-index: 10;
 }
 
-.navbar_netflix {
+.navbar__netflix {
     width: 126px;
     height: 100%;
 }
 
-.navbar_nav_items {
+.navbar__nav__items {
     display: flex;
     gap: 12px;
 }
@@ -62,7 +62,7 @@ body{
     background: rgba(0, 0, 0, 0.4);
 }
 
-.signin_button {
+.signin__button {
     border: var(--secondary);
     background-color: var(--secondary);
     color: var(--text-color);

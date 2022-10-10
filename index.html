@@ -16,7 +16,7 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="navbar_netflix">
+        <div class="navbar__netflix">
           <svg
             viewBox="0 0 111 30"
             data-uia="netflix-logo"
@@ -32,25 +32,12 @@
             </g>
           </svg>
         </div>
-        <!-- Language dropdown and Sign In Button-->
-        <div class="navbar_nav_items">
-          <!-- Dropdown -->
-          <div class="nav__item">
-            <div class="dropdown_container">
-              <i class="fa-solid fa-globe"></i>
-              <select
-                name="languages"
-                id="selectLanguages"
-                class="language_drop_down"
-              >
-                <option value="english" selected>English</option>
-                <option value="Zulu">Zulu</option>
-              </select>
-            </div>
-          </div>
+
+        <!-- Sign In Button-->
+        <div class="navbar__nav__items">
           <!-- Sign In -->
           <div class="nav__item">
-            <button class="signin_button">Sign In</button>
+            <button class="signin__button">Sign In</button>
           </div>
         </div>
       </nav>

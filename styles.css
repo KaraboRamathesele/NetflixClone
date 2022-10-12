@@ -153,6 +153,7 @@ body{
     outline: none;
   }
   
+  /* Button */
   .primary__button {
     background-color: var(--secondary);
     border: 1px solid var(--secondary);
@@ -162,6 +163,8 @@ body{
     font-size: 15px;
     letter-spacing: 1px;
   }
+
+
   
   .feature {
     border-top: 8px solid #222;
@@ -519,5 +522,3 @@ body{
     }
   }
   
-  @media (min-width: 1254px) {
-  }

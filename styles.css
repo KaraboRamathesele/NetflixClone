@@ -61,7 +61,6 @@ body{
 
   @media (min-width: 768px) {
     .signin__button {
-       
     }
   }
   
@@ -184,6 +183,7 @@ body{
     .primary__button {
         font-size: 25px;
     }
+
   }
 
 
@@ -342,6 +342,11 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    cursor: pointer;
+  }
+
+  footer:hover {
+    text-decoration: underline;
   }
   
   .footer__row__2 {

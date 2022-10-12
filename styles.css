@@ -41,14 +41,28 @@ body{
     height: 100%;
   }
 
+  @media (min-width: 768px) {
+    .netflix__logo {
+        width: 170%;
+        height: 170%;
+    }
+  }
+  
   /* Sign In */
   
   .signin__button {
     background-color: var(--secondary);
     border: 1px solid var(--secondary);
-    color: var(--primary);
+    color: var(--text-color);
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    .signin__button {
+       
+    }
   }
   
   .navbar__nav__items {
@@ -61,6 +75,7 @@ body{
   .hero__bg__image__container {
     width: 100%;
     height: 80vh;
+    background-color: #222;
   }
   
   .hero__bg__image {
@@ -101,6 +116,7 @@ body{
   .hero__description {
     font-weight: 400;
     font-size: 1rem;
+    line-height: 1.5;
   }
   
   .hero__description {
@@ -162,6 +178,12 @@ body{
     border-radius: 2px;
     font-size: 15px;
     letter-spacing: 1px;
+  }
+
+  @media (min-width: 768px) {
+    .primary__button {
+        font-size: 25px;
+    }
   }
 
 
@@ -359,11 +381,15 @@ body{
       transform: translate(-20%, -20%);
     }
     .hero__title {
-      font-size: 3rem;
+      font-size: 4rem;
     }
-    .hero__subtitle,
+
+    .hero__subtitle {
+        font-size: 1.625rem;
+    }
+
     .hero__description {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
   
     .feature {
@@ -428,6 +454,11 @@ body{
       padding: 10px 20px;
       font-size: 18px;
     }
+
+    .hero__title {
+        font-size: 4rem;
+      }
+
     .dropdown__container {
       padding: 10px 5px;
     }

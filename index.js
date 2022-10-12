@@ -1,5 +1,7 @@
+
+import './components/movies-list.js'
 import './components/movie-preview.js'
-import './components/movies-list'
+import './components/netflix-app.js'
 
 let accordian = document.getElementsByClassName("FAQ__title");
 

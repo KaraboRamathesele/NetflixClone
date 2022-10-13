@@ -59,6 +59,11 @@ body{
     cursor: pointer;
   }
 
+  .signin__button > a {
+    color:var(--text-color);
+    text-decoration: none;
+  }
+
   @media (min-width: 768px) {
     .signin__button {
     }

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --primary: black;
+    --secondary: #e50914;
+    --text-color: #fff;
+    --accordian : #303030;
+    --footer-text: #757575;
+}

@@ -345,7 +345,7 @@ body{
     cursor: pointer;
   }
 
-  footer:hover {
+  .footer__link__item:hover {
     text-decoration: underline;
   }
   
